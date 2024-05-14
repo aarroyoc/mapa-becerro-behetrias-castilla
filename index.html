@@ -1,34 +1,44 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8"/>
-    <title>Mapa del Becerro de las Behetrías de Castilla</title>
-    <script src="proj4.js"></script>
-    <link rel="stylesheet" href="leaflet.css">
-    <script src="leaflet.js"></script>
-    <link rel="stylesheet" href="main.css">
-    <script src="main.js"></script>
-  </head>
-  <body>
-    <h1>Mapa del Becerro de las Behetrías de Castilla</h1>
-    <main>
-      <div id="map"></div>
-        <div id="data">
-	  <input type="search" placeholder="Buscar lugar..." id="search"/>
-	  <div id="search-results"></div>
-	  <div id="data-panel">
-	    <label>Nombre:</label><span id="original-name"></span>
-	    <label>Nombre moderno:</label><span id="modern-name"></span>
-	    <label>Categoría:</label><span id="cat"></span>
-	    <label>Merindad:</label><span id="merindad"></span>
-	    <label>Referencia:</label><span id="ref"></span>
-	  </div>
-  	  <p id="notas"></p>
-	</div>
-    </main>
-    <div id="help"><p>El Becerro de las Behetrías de Castilla (originalmente Becerro de las Merindades de Castilla) fue un libro encargado por el rey Pedro I de Castilla con motivo de las Cortes de Valladolid de 1351. Se trata de un inventario de las poblaciones del norte de Castilla en aquellos años, dividido en merindades, con información de su tipo de jurisdicción. Se encargó para decidir si las behetrías, un tipo de jurisdicción que podían tener los pueblos, debía ser abolido, como reclamaba el estamento de los hidalgos. Aunque sin llegar a ser exhaustivo, el documento es de gran interés porque nos permite conocer el estado de los asentamientos humanos en aquella época en Castilla.</p>
-    <p>Este mapa se basa en los datos del grupo de investigación Quaestio, del Instituto de Historia-CSIC, que a fecha de 2009 confeccionó un mapa con datos de ubicaciones modernas de los elementos listados en el becerro.</p>
-</div>
-  </body>
-</html>
 
+<head>
+  <meta charset="utf-8" />
+  <title>Mapa del Becerro de las Behetrías de Castilla</title>
+  <script src="proj4.js"></script>
+  <link rel="stylesheet" href="leaflet.css">
+  <script src="leaflet.js"></script>
+  <link rel="stylesheet" href="main.css">
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <h1>Mapa del Becerro de las Behetrías de Castilla</h1>
+  <main>
+    <div id="map"></div>
+    <div id="data">
+      <input type="search" placeholder="Buscar lugar..." id="search" />
+      <div id="search-results"></div>
+      <div id="data-panel">
+        <label>Nombre:</label><span id="original-name"></span>
+        <label>Nombre moderno:</label><span id="modern-name"></span>
+        <label>Categoría:</label><span id="cat"></span>
+        <label>Merindad:</label><span id="merindad"></span>
+        <label>Referencia:</label><span id="ref"></span>
+      </div>
+      <p id="notas"></p>
+    </div>
+  </main>
+  <div id="help">
+    <p>El Becerro de las Behetrías de Castilla (originalmente Becerro de las Merindades de Castilla) fue un libro
+      encargado por el rey Pedro I de Castilla con motivo de las Cortes de Valladolid de 1351. Se trata de un inventario
+      de las poblaciones del norte de Castilla en aquellos años, dividido en merindades, con información de su tipo de
+      jurisdicción. Se encargó para decidir si las behetrías, un tipo de jurisdicción que podían tener los pueblos,
+      debía ser abolido, como reclamaba el estamento de los hidalgos. Aunque sin llegar a ser exhaustivo, el documento
+      es de gran interés porque nos permite conocer el estado de los asentamientos humanos en aquella época en Castilla.
+    </p>
+    <p>Este mapa se basa en los datos del grupo de investigación Quaestio, del Instituto de Historia-CSIC, que a fecha
+      de 2009 confeccionó un mapa con datos de ubicaciones modernas de los elementos listados en el becerro.</p>
+  </div>
+</body>
+
+</html>

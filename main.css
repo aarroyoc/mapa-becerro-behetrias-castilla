@@ -1,24 +1,43 @@
-h1{
-    padding: 1rem;
+@font-face {
+    font-family: 'Sedan';
+    src: url('Sedan-Regular.ttf') format('truetype');
 }
 
-body{
+@font-face {
+    font-family: 'SedanSC';
+    src: url('SedanSC-Regular.ttf') format('truetype');
+}
+
+h1 {
+    padding: 1rem;
+    font-family: 'SedanSC';
+}
+
+body {
     margin: 0;
     padding: 0;
+    font-family: 'Sedan', serif;
+    background-color: #ebeae7;
+    opacity: 0.8;
+    background-image:  repeating-linear-gradient(45deg, #e5e5e5 25%, transparent 25%, transparent 75%, #e5e5e5 75%, #e5e5e5), repeating-linear-gradient(45deg, #e5e5e5 25%, #ebeae7 25%, #ebeae7 75%, #e5e5e5 75%, #e5e5e5);
+    background-position: 0 0, 10px 10px;
+    background-size: 20px 20px;
 }
+
 #map {
     flex: 4;
     height: 90vh;
     min-width: 200px;
 }
-main{
+
+main {
     width: 100vw;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-#data{
+#data {
     flex: 1;
     display: flex;
     flex-direction: column;
